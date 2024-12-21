@@ -9,10 +9,10 @@
  * Detyra (b)
  * Te llogaritet shuma e borxhit te mbetur ne nje kredi pas "n" viteve duke perdorur formulen e re
  * funksioni "llogaritBorxhinMbetur" merr si hyrje (principalin, interesin, vitet, viti, pagesenvjetore)
- * principali - Shuma fillestare e kredise (ne shembullin tone "100,000")
- * interesi - interesi i kredise
- * vitet - Perfaqeson kohezgjatjen totale te kredise ne vite (ne shembullin tone "10" vite)
- * viti - Përfaqëson vitin specifik për të cilin po llogaritet borxhi i mbetur.
+ * principali -> Shuma fillestare e kredise (ne shembullin tone "100,000")
+ * interesi -> interesi i kredise
+ * vitet -> Perfaqeson kohezgjatjen totale te kredise ne vite (ne shembullin tone "10" vite)
+ * viti -> Përfaqëson vitin specifik për të cilin po llogaritet borxhi i mbetur.
  * Pagesa vjetore caktohet nga Detyra (a)
  */
 
