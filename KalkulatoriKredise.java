@@ -1,6 +1,6 @@
 /*
  * Detyra (a)
- * Pagesa vjetore per shumen fillestare te kredise(double p)
+ * Pagesa vjetore per "shumen fillestare te kredise" ->(double p)
  * Me norme vjetore interesi(double i)
  * Per nje kohezgjatje prej "y" vite (int y)
  */
@@ -34,14 +34,14 @@ public class KalkulatoriKredise {
     public static void main(String[] args) {
         // Vlerat hyrëse
         double shumaKredise = 100000; // Shuma totale e kredisë (p.sh., 100,000 euro)
-        double normaInteresit = 0.05; // Norma vjetore e interesit (p.sh., 5%)
+        double normaInteresit = 0.08; // Norma vjetore e interesit (p.sh., 5%)
         int vitet = 10; // Kohëzgjatja e kredisë në vite
 
         // Llogarit këstin vjetor
         double pagesaVjetore = llogaritPagesenVjetore(shumaKredise, normaInteresit, vitet);
         System.out.printf("Pagesa vjetore: %.2f EUR%n", pagesaVjetore); // %.2f(dmth nr. shfaqet me dy shifra pas presjes dhjetore)
 
-        // Shtyp borxhin e mbetur për vitet 0 deri në 5
+        // Shtyp borxhin e mbetur për vitet prej 0 deri në 5
         System.out.println("Borxhi i mbetur për vitet 0 deri në 5:");
         for (int viti = 0; viti <= 5; viti++) {
             double borxhiMbetur = llogaritBorxhinMbetur(shumaKredise, normaInteresit, vitet, viti, pagesaVjetore);
